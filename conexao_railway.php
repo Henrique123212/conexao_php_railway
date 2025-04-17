@@ -1,5 +1,5 @@
 <?php
-$link = mysql_connect('mysql://root:lmxxdYdpXsDgSrioWJyuQjiPWwBhEMxH@junction.proxy.rlwy.net:26055/railway');
+$link = mysql_connect("key/link api");
 if (!$link) {
     die('Não pode ser conectado: ' . mysql_error());
 }
